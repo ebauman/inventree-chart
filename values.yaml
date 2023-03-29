@@ -1,0 +1,4 @@
+postgres:
+  image: postgres:13
+  user: inventree
+  
