@@ -12,7 +12,7 @@ metadata:
   name: {{ .Release.name }}-postgres
 spec:
   selector:
-    matchLabels:
+    matchLabels:g
       kubernetes.io/app: {{ .Release.name }}-postgres
   serviceName: "postgres"
   replicas: 1
